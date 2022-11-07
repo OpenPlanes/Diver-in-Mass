@@ -1,4 +1,3 @@
-Dive Tracker Proposal
 Summary
 The Divebot is an autonomous dive float for recreational diving that combines traditional dive safety float with an underwater camera that follows divers. In its fully developed form it has the potential to solve a number of problem associated with dive sport and enhance the safety and enjoyment of diving activities.
 
@@ -22,11 +21,12 @@ motion tracking of IR-light beacon attached to diver
 Challenges to solve:
 
 Geometry of robot
-m![Phase1-sketch](https://user-images.githubusercontent.com/106100235/200344567-e2721e21-098f-4546-abfb-443b16838d94.jpeg)
-ass ratios of buoy, camera and boom
+mass ratios of buoy, camera and boom
 parsing camera data and writing algorithm to measure light intensity in image
 robot controls based of camera image
 waterproofing
+
+![Phase1-sketch](https://user-images.githubusercontent.com/106100235/200344567-e2721e21-098f-4546-abfb-443b16838d94.jpeg)
 
 
 
