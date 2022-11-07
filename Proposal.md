@@ -22,11 +22,13 @@ motion tracking of IR-light beacon attached to diver
 Challenges to solve:
 
 Geometry of robot
-mass ratios of buoy, camera and boom
+m![Phase1-sketch](https://user-images.githubusercontent.com/106100235/200344567-e2721e21-098f-4546-abfb-443b16838d94.jpeg)
+ass ratios of buoy, camera and boom
 parsing camera data and writing algorithm to measure light intensity in image
 robot controls based of camera image
 waterproofing
-Phase 1 Sketch
+
+
 
 Phase 2 - Scale model, cable line, mobile float, and camera tracking
 Intended Features:
@@ -61,20 +63,15 @@ Radio transmission from bouy to surface receiver
 GPS receiver
 adaptability to non-trivial waves (calm open water conditions)
 Challenges to solve:
-
 same as above but with harsher conditions
+
+
+![Phase2-sketch](https://user-images.githubusercontent.com/106100235/200344645-91898237-086f-44c7-a79d-f8de5e5883eb.jpeg)
+
+
 Image tracking intent and plan
 To minimize cost of materials for initial research and to scale most basic version of project to the time available, we propose using a raspberry pi IR camera and using information based on the greyscale of the received images to determine the location and orientation of the robot in the environment, and then center itself on the source of light.
 
 Infra-read light is used intentionally because of its poor propagation through water. If the dive bot remains close to a beacon attached to a diver, it will be the strongest source of IR light and in theory will be a bright spot in the image for the robot to lock onto. Other sources of light will emit less IR light and any light from the surface will be heavily attenuated. Once the robot receives and image and the intensity of the cells of light are measured it can determine how far above or below, and left or right of the centerline the light is, and adjust accordingly.
 
 This project also aims to validate this IR light idea and determine a different source/color of light that would serves as a beacon, if this method is unsuccessful. The approach is also fairly simple and intentionally avoids complicated methods involving computer vision, image recognition and machine learning.
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Doc
