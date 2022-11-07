@@ -1,4 +1,5 @@
 Summary
+
 The Divebot is an autonomous dive float for recreational diving that combines traditional dive safety float with an underwater camera that follows divers. In its fully developed form it has the potential to solve a number of problem associated with dive sport and enhance the safety and enjoyment of diving activities.
 
 These features include:
@@ -8,7 +9,7 @@ accurate diver location signaling to surface vehicles
 under water navigation
 Air-Water wireless communication barrier
 Phased implementation approach
-Due to the constrained timeline of the EK505 class, the scope of this project will only aim to develop a scale proof of concept model, specifically to develop and test a camera tracking algorithm for underwater motion. Iterative phases of this project would build a full scale version, implement additional features and solve challenges that would potentially arise from environmental conditions. Below is the intended four phases for a fully developed system. Our project group will complete as many of these phases as time allows.
+Due to the constrained budget of what was given to us by the state, the scope of this project will only aim to develop a scale proof of concept model, specifically to develop and test a camera tracking algorithm for underwater motion. Iterative phases of this project would build a full scale version, implement additional features and solve challenges that would potentially arise from environmental conditions. Below is the intended four phases for a fully developed system. Our project group will complete as many of these phases as time allows.
 
 Phase 1 - Scale model, rigid boom and Camera tracking
 Intended Features:
@@ -27,8 +28,6 @@ robot controls based of camera image
 waterproofing
 
 ![Phase1-sketch](https://user-images.githubusercontent.com/106100235/200344567-e2721e21-098f-4546-abfb-443b16838d94.jpeg)
-
-
 
 Phase 2 - Scale model, cable line, mobile float, and camera tracking
 Intended Features:
