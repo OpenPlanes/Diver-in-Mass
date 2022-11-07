@@ -41,7 +41,8 @@ Challenges to solve:
 
 geometry of cable as angle θ changes with drag underwater
 positioning buoy based on light intensity of beacon.
-Phase 2 Sketch
+
+![Phase2-sketch](https://user-images.githubusercontent.com/106100235/200344645-91898237-086f-44c7-a79d-f8de5e5883eb.jpeg)
 
 Phase 3 - Full size model, swimming pool test
 Intended Features:
@@ -64,10 +65,6 @@ GPS receiver
 adaptability to non-trivial waves (calm open water conditions)
 Challenges to solve:
 same as above but with harsher conditions
-
-
-![Phase2-sketch](https://user-images.githubusercontent.com/106100235/200344645-91898237-086f-44c7-a79d-f8de5e5883eb.jpeg)
-
 
 Image tracking intent and plan
 To minimize cost of materials for initial research and to scale most basic version of project to the time available, we propose using a raspberry pi IR camera and using information based on the greyscale of the received images to determine the location and orientation of the robot in the environment, and then center itself on the source of light.
